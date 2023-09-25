@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
 <head>
     <meta charset="utf-8">
@@ -201,7 +201,10 @@
 
     <a-scene embedded arjs='trackingMethod: best; patternRatio: 0.5; debugUIEnabled: false;' vr-mode-ui="enabled: false" copycanvas>
 
-        --MARKERS--
+			<a-marker type="pattern" url="data/markers\Hiro.patt" markercontroller="name : Hiro"></a-marker>
+			<a-marker type="pattern" url="data/markers\Nutty.patt" markercontroller="name : Nutty"></a-marker>
+			<a-marker type="pattern" url="data/markers\NuttyCardboard.patt" markercontroller="name : NuttyCardboard"></a-marker>
+
         <a-entity camera cameratransform></a-entity>
 
     </a-scene>
